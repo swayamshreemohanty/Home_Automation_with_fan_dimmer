@@ -1,0 +1,53 @@
+# Home_Automation_with_fan_dimmer
+In this project you can control your Home Appliance using IR Remote and Bluetooth from the Android and the special feature is, you can now remotely control the speed of your FAN.
+
+Pin connection:- 
+
+Bluetooth:- Pin8 (RX) and Pin9 (TX), //you can also use Arduino default Rx and Tx pins i.e Pin 0 and Pin 1
+
+IR reciever signal input:- Pin A0
+
+MOC3021 Vcc from Arduino:- Pin 3
+
+Relay 1:- A1
+Relay 2:- A2
+Relay 3:- A3
+
+For video tutorial please visit my Youtube:- https://www.youtube.com/watch?v=WeH-fjAeyjE
+
+Hardware used in this project :-
+
+1.Arduino with type-A cable
+2.Bluetooth Module
+3.Relay Board
+4.IR Transmitter
+5.IR Receiver
+6.LCD Display (optional)
+
+*For Relay board
+1.Relay (i used 5Volt relay)
+2.one IN4001 Diode
+3.100(ohm) resister (for Arduino input to the transistor)
+4.2N2222A Transistor
+5.LED (for indication)
+6.1k(ohm) resister for led protection
+
+
+*For Fan speed control
+1.MOC3021(Driver)
+2.PC817(Optocoupler)
+3.BT136 TRIAC
+4.Diode Bridge
+5.Two 100k(Ohm) Resister (for diode bridge)
+6.Two 471(ohm) resister
+7.10k(Ohm) resister (for octo coupler)
+8.LED for indication
+9.Capacitor 100nf 400v
+10.Register 100(Ohm) 1Watt
+
+///////////////////////////////////////
+
+Software used in this project :-
+1.Arduino IDE
+
+///////////////////////////////////////
